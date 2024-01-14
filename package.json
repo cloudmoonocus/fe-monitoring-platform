@@ -1,0 +1,23 @@
+{
+    "name": "@cloudmoonocus/fe-monitoring-platform",
+    "private": true,
+    "scripts": {
+        "build": "lerna run build --stream",
+        "lint": "lerna run lint",
+        "format": "lerna run format"
+    },
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^25.0.7",
+        "@rollup/plugin-node-resolve": "^15.2.3",
+        "@rollup/plugin-typescript": "^11.1.6",
+        "eslint": "^8.56.0",
+        "eslint-config-prettier": "^9.1.0",
+        "lerna": "^6.6.2",
+        "prettier": "^3.2.2",
+        "rollup": "^4.9.5",
+        "typescript": "^5.3.3"
+    },
+    "workspaces": [
+        "packages/*"
+    ]
+}
