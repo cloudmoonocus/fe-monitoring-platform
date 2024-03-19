@@ -1,5 +1,6 @@
 {
     "name": "@cloudmoonocus/fe-monitoring-platform",
+    "email": "f356660222@foxmail.com",
     "private": true,
     "scripts": {
         "build": "lerna run build --stream",
